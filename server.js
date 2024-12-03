@@ -33,3 +33,5 @@ io.on('connection',function(socket){
 server.listen(3000,function(){
     console.log("server started")
 })
+
+module.exports = app
