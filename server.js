@@ -14,7 +14,7 @@ const io = new socket.Server(server,{
 })
 
 app.get("/",function(req,res){
-    console.log("setupcretead")
+    res.send("Server Ready")
 })
 
 io.on('connection',function(socket){
